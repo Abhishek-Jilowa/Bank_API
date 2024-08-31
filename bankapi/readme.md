@@ -12,7 +12,6 @@ The Bank API is a Django-based project that provides an API for querying bank an
 
 
 ### Setup
-To use PyLog, import pylog and simply add PyLog decorator `@pylog` to the function that you'd like to synthesize into an FPGA accelerator. Pass NumPy arrays to the decorated function and call the decorated function. Then run the whole Python program. In the following example, `vecadd` function will be compiled into HLS C code by PyLog. 
 
 1. Clone the Repository
 ```
